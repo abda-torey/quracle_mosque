@@ -13,7 +13,7 @@ async function getPledges(): Promise<Pledge[]> {
     .from('pledges')
     .select('*')
     .eq('approved', true)
-    .order('created_at', { ascending: false })
+    .order('amount', { ascending: false })
   if (error) console.error('getPledges error:', error)
   return data ?? []
 }
