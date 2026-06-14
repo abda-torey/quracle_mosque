@@ -53,7 +53,7 @@ export default async function HomePage() {
 
         {/* CTA */}
         <Link href="/pledge" className="btn-primary block text-center">
-          Make a pledge <span className="font-normal opacity-80">· Isk Qor lacagta</span>
+          Make a pledge <span className="font-normal opacity-80">· Isku Qor lacagta</span>
         </Link>
 
 
@@ -73,7 +73,7 @@ export default async function HomePage() {
 
         {/* Second CTA */}
         <Link href="/pledge" className="btn-primary block text-center">
-          Make a pledge <span className="font-normal opacity-80">· Isk Qor lacagta</span>
+          Make a pledge <span className="font-normal opacity-80">· Isku Qor lacagta</span>
         </Link>
 
         <p className="text-xs text-center text-gray-400">
