@@ -57,10 +57,10 @@ export default function ContributorList({ pledges }: Props) {
               <p className="text-xs text-gray-400">{p.location}</p>
             </div>
             <div className="text-right flex-shrink-0">
-              <p className="text-sm font-medium text-mosque-green">{fmt(p.amount)}</p>
-              <span className={p.status === 'paid' ? 'badge-paid' : 'badge-pledged'}>
-                {p.status === 'paid' ? 'Paid' : 'Pledged'}
-              </span>
+                <p className="text-sm font-medium text-mosque-green">{fmt(p.amount)}</p>
+                <span className={p.status === 'paid' ? 'badge-paid' : 'badge-pledged'}>
+                  {p.status === 'paid' ? 'Paid' : 'Pledged (Ballanqaad)'}
+                </span>
             </div>
           </div>
         )
